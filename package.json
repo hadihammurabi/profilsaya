@@ -5,6 +5,18 @@
   "main": "index.js",
   "author": "Hadi Hidayat Hammurabi <didikipb007@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "config": {
+    "app": {
+      "port": "5000"
+    },
+    "db": {
+      "uri": "mongodb://root:root@ds259865.mlab.com:59865/profilsaya"
+    }
+  },
   "dependencies": {
     "express": "^4.16.2",
     "joi": "^13.1.2",
