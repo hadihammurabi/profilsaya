@@ -1,0 +1,8 @@
+{
+  "name": "profilsaya",
+  "version": "1.0.0",
+  "description": "Backend dari manajer profil diri",
+  "main": "index.js",
+  "author": "Hadi Hidayat Hammurabi <didikipb007@gmail.com>",
+  "license": "MIT"
+}
